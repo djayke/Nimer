@@ -1,0 +1,49 @@
+func div(a,b)
+{
+    if (b == 0)
+    {
+        log "div zero";
+    }
+    else
+    {
+        q = 0;
+        while ((a-b) >= 0)
+        {
+            a = a - b;
+            q = q + 1;
+        }
+
+        log "quotient : " + q + " remainder : " + a ;
+    }
+}
+
+#Comment
+div(2,3);
+div(1,0);
+div(10,3);
+div(1,2);
+
+#Function retdiv
+func retdiv(a,b)
+{
+    x = true;
+    if (b == 0)
+    {
+        x = false;
+    }
+    else
+    {
+        q = 0;
+        while ((a-b) >= 0)
+        {
+            a = a - b;
+            q = q + 1;
+        }
+        x = true;
+    }
+    return x;
+}
+
+#Comment
+log retdiv(1,0);
+log retdiv(1,2);

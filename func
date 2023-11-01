@@ -1,0 +1,60 @@
+
+func carre(x)
+{
+    return x+x;
+}
+
+e = carre(3);
+log e;
+
+f = carre(1) + carre(1);
+log f;
+
+func cube(x,y)
+{
+    return x * y;
+}
+
+g = cube(3,4);
+log g;
+
+func compose()
+{
+    return carre(5);
+}
+
+h = compose();
+log h;
+
+func recursive(a)
+{
+    if(a>1)
+    {
+        recursive(0);
+    }
+    return a;
+}
+
+i = recursive(3);
+log i;
+
+func t(e)
+{
+    return carre(e);
+}
+
+log e;
+j = t(2);
+log j;
+
+y = "abc";
+log y;
+
+func u(test)
+{
+    return test;
+}
+
+z = u(y);
+log z;
+

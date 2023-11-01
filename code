@@ -1,0 +1,39 @@
+a = true;
+b = false;
+
+
+if a && b {
+  log "1 :: a=" + a +", b=" + b;
+}
+else if a || b {
+  log "2 :: a=" + a +", b=" + b;
+}
+else {
+  log "3 :: a=" + a +", b=" + b;
+}
+
+y = 1;
+x = 1;
+while x < 5 {
+    log x;
+    x = x + 1;
+}
+
+i = 1;
+for i=0; i<7; i=i+1;
+{
+  log i;
+}
+
+c = (2 + 2) * 4;
+log c;
+
+log x;
+
+v = "abc";
+if(x != y && v == "abc")
+{
+    log 22;
+}
+
+log "Done!";
