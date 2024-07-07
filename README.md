@@ -79,3 +79,6 @@ Command Line Antlr
    ```
    java -jar antlr.jar T.g4 -Dlanguage=Java -o Antlr -visitor
    ```
+### Bytecode
+the part wher it translate the logical addressing into physical addressing for a compressed format such as hexadecimal is the only obvious part where the virtual machine handling the basic CISC instructions is held in such way that it can hold
+multiple stack pointer and frame counter at once to make it a parralel bytecode irtual machine! Somehow one day!
