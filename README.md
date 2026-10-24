@@ -3,8 +3,7 @@
 Nimer is my very own toy programming language. Im working on it as of today to fix many incomplete features. The language now support if, else, while, for, function that still need work. Im also working on a C# version of the project and a complete tutorial on how I did and for people that would like to make their own programming language from scratch. Ive been looking for nice and complete tutorial a lot on the intrnet over past years and after many attempt, im finally coming to something and I want to share what I learned in the process with people.
 
 <i><b>There is many things wrong with this current version.</b></i> 
-
-Feel free to message me if you're the type to work on project like that or have any question on how to start!
+I am refactoring the grammar for the moment
 
 ### Idea Setup
 1) Download ANTLR .jar -> https://www.antlr.org/download.html
@@ -82,3 +81,4 @@ Command Line Antlr
 ### Bytecode
 the part wher it translate the logical addressing into physical addressing for a compressed format such as hexadecimal is the only obvious part where the virtual machine handling the basic CISC instructions is held in such way that it can hold
 multiple stack pointer and frame counter at once to make it a parralel bytecode irtual machine! Somehow one day!
+
